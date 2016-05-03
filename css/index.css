@@ -1,0 +1,385 @@
+    html,
+    body {
+    	position: relative;
+    	height: 100%;
+    }
+    
+    body {
+    	background: #eee;
+    	font-family: "microsoft yahei";
+    	font-size: 14px;
+    	color: #000;
+    	margin: 0;
+    	padding: 0;
+    }
+    
+    .swiper-container {
+    	width: 100%;
+    	height: 100%;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+    
+    .swiper-slide {
+    	text-align: center;
+    	font-size: 18px;
+    	background: #fff;
+    	/* Center slide text vertically */
+    	display: -webkit-box;
+    	display: -ms-flexbox;
+    	display: -webkit-flex;
+    	display: flex;
+    	-webkit-box-pack: center;
+    	-ms-flex-pack: center;
+    	-webkit-justify-content: center;
+    	justify-content: center;
+    	-webkit-box-align: center;
+    	-ms-flex-align: center;
+    	-webkit-align-items: center;
+    	align-items: center;
+    }
+    
+    .act {
+    	background: url(../img/bg1.jpg);
+    	background-size: cover;
+    }
+    
+    .act-content {}
+    
+    .act-part1-avatar {
+    	/*width: 20rem;*/
+    }
+    
+    .act-kk {
+    	position: relative;
+    }
+    
+    .act-kk h4 b{
+    	font-size: 3rem;
+    	display: block;
+    	margin-bottom: 10px;
+    }
+    
+      .act-kk h4 {
+    	text-shadow: 1px 1px 3px #000;
+    	text-align: left;
+    	line-height: 2.4rem;
+        font-size: 2.4rem;
+             color:white;
+
+    }
+    
+    .wechat-img {
+    	box-shadow: 1px 1px 8px #EEEEEE;
+    }
+    
+    .wechatk {
+    	position: relative;
+    }
+    
+    .avatar {
+    	position: absolute;
+    }
+    
+    .a1 {
+    	top: 12%;
+    	left: 2%;
+    }
+    
+    .a2 {
+    	top: 12%;
+    	left: 26%;
+    }
+    
+    .a3 {
+    	top: 12%;
+    	left: 51%;
+    }
+    
+    .a4 {
+    	top: 12%;
+    	left: 76%;
+    }
+    
+    .a5 {
+    	top: 32%;
+    	left: 2%;
+    }
+    
+    .a6 {
+    	top: 32%;
+    	left: 26%;
+    }
+    
+    .a7 {
+    	top: 32%;
+    	left: 51%;
+    }
+    
+    .a8 {
+    	top: 32%;
+    	left: 76%;
+    }
+    
+    .a9 {
+    	top: 52%;
+    	left: 2%;
+    }
+    
+    .a10 {
+    	top: 52%;
+    	left: 26%;
+    }
+    
+    .a11 {
+    	top: 52%;
+    	left: 51%;
+    }
+    
+    .a12 {
+    	top: 52%;
+    	left: 76%;
+    }
+    
+    .avatar img {
+    	max-width: 70px;
+    	text-align: center;
+    }
+    
+    .avatar h6 {
+    	margin-top: 2px;
+    }
+    
+    .wechatin {
+    	padding: 15rem 0;
+    	font-weight: bold;
+    }
+    
+    .wechattalk {
+    	position: relative;
+    }
+    
+    .message_content {
+    	position: absolute;
+    	left: 9%;
+    	width: 80%;
+    	margin-bottom: 1.6rem;
+    }
+    
+    .gd1{top: 15%;}
+    .gd2{top: 38%;}
+    .gd3{top: 57%;}
+    .gd4{top: 15%;}
+    .gd5{top: 33%;}
+    .gd6{top: 46%;}
+    .gd7{top: 59%;}
+    .gd8{top: 73%;}
+    .gd9{top: 15%;}
+    .gd10{top: 32%;}
+    .gd11{top: 56%;}
+    .gd12{top: 73%;}
+    .gd13{top: 15%;}
+    .gd14{top: 32%;}
+    .gd15{top: 46%;}
+    .gd16{top: 59%;}
+    .gd17{top: 72%;}
+    .gd18{top: 15%;}
+    .gd19{top: 28%;}
+    .gd20{top: 41%;}
+    .gd21{top: 57%;}
+    .gd22{top: 67%;}
+    
+    .gd222{top: 15%;}
+    .gd23{top: 33%;}
+    .gd24{top: 54%;}
+    .gd25{top: 72%;}
+    .gd26{top: 15%;}
+    .gd27{top: 28%;}
+    .gd28{top: 42%;}
+    
+    .gd29{top: 15%;}
+    .gd30{top: 39%;}
+    
+    
+    .message_content span{
+    	    position: absolute;
+    		left: 10%;
+    }
+    
+    .face {
+    	float: left;
+    	width: 10%;
+    	font-size: 1.4rem;
+    }
+    
+    .face img {
+    	width: 100%;
+    	max-width: 50px;
+    	clear: both;
+    }
+    
+    .qname{
+            position: absolute;
+            bottom: 3%;
+            left: 75%;
+            font-weight: bold;
+    }
+    
+    .message {
+    	float: left;
+    	background-color: #fff;
+    	padding: 10px;
+    	max-width: 70%;
+    	margin-top: 23px;
+    	margin-left: 16px;
+    	margin-right: 5px;
+    	border-radius: 10px;
+    	position: relative;
+    	box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.3);
+    	text-align: left;
+    }
+    
+     .message2 {
+    	background: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 23px;
+    margin-left: 16px;
+    margin-right: 5px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.3);
+    font-size: 18px;
+    font-weight: bold;
+    }
+    
+    
+    .messageleft {
+    	float: left;
+    	background-color: #A6DADC;
+    	padding: 10px;
+    	width: 75%;
+    	margin-left: 5px;
+    	margin-right: 20px;
+    	-webkit-border-radius: 10px;
+    	-moz-border-radius: 10px;
+    	border-radius: 10px;
+    	position: relative;
+    	background-image: -moz-linear-gradient(hsla(0, 0%, 100%, 0.6), hsla(0, 0%, 100%, 0) 30px);
+    	background-image: -webkie-gradient(linear, 0 0, 0 30, from(hsla(0, 0%, 100%, 0.6)), to(hsla(0, 0%, 100%, 0)));
+    	box-shadow: -2px 1px 2px hsla(0, 0%, 0%, 0.3);
+    }
+    
+    .message:before {
+    	position: absolute;
+    	content: "\00a0";
+    	width: 0px;
+    	height: 0px;
+    	border-width: 8px 18px 8px 0;
+    	border-style: solid;
+    	border-color: transparent #fff transparent transparent;
+    	top: 15px;
+    	left: -18px;
+    }
+    
+    .messageleft:before {
+    	position: absolute;
+    	content: "\00a0";
+    	display: inline-block;
+    	width: 0px;
+    	height: 0px;
+    	border-width: 8px 0px 8px 18px;
+    	border-style: solid;
+    	border-color: transparent transparent transparent #A6DADC;
+    	right: -18px;
+    	top: 15px;
+    }
+    
+    .blankdv {
+    	height: 10px;
+    }
+    
+    
+    .filmimg{
+    	position: relative;
+    }
+    
+    .filmimg > img,.filmimg2 > img{
+    	max-width: 30rem;
+    }
+    
+    .filmimg2 > img{
+    	padding: .5rem;
+    }
+    
+    .nextfilm-content{
+    	position: absolute;
+    	top: 1%;
+    	right: 1%;
+    	padding: 1.2rem;
+    	background-color: rgba(255,255,255,0.8);
+    	color: rgb(0,0,0);
+    	font-size: 1.6rem;
+    	font-weight: bold;
+    	width: 65%;
+    }
+    
+    .nextfilm-head{
+    	    position: absolute;
+		    bottom: 1%;
+		    left: 1%;
+		    padding: 1.2rem;
+		    background-color: rgba(255,255,255,0.8);
+		    color: #fff;
+		    font-size: 4rem;
+		    font-weight: bold;
+		    
+		    /*text-shadow: 1px 1px 5px #666;*/
+		   /*text-shadow: 2px 2px 2px #007DB7, 2px 2px 2px #007DB7, -2px 0px 0 #007DB7, 0px -2px 0 #007DB7;*/
+		  text-shadow:  4px 0px 4px #007DB7,
+						0px 4px 4px #007DB7,
+						-4px 0px 4px #007DB7,
+						0px -4px 4px #007DB7;
+		    letter-spacing: 3px;
+		    width: 48%;
+    }
+    
+    @media screen and (min-width: 767px) and (max-width: 991px) {
+    	 .qname{
+            font-size: 1.6rem;
+            bottom:2%;
+          }
+          
+          .nextfilm-content{
+          	width: 85%;
+          }
+          
+          .avatar img {
+    	width: 50px;
+    	text-align: center;
+    }
+    
+    	.message{
+    		max-width: 86%;
+    	}
+    	.act-kk h4 {
+    		font-size: 2.2rem;
+    		line-height: 2.6rem;
+    	}
+    	
+    	 .act-kk h4 b{
+    	 	font-size: 3rem;
+        display: block;
+        padding-bottom: 10px;
+    }
+    
+    	.act-part1-avatar {
+    	}
+    }
+    
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+    	.act-kk h4 {
+    		font-size: 2.4rem;
+    		line-height: 2.6rem;
+    	}
+    }

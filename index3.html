@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>树本part3</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.animate1.0.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jz.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.vticker-min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+
+				<div class="swiper-slide">
+
+					<div class="wechattalk">
+						<img class=" img-responsive" src="img/ipad.jpg" />
+
+						<div class="message_content ani gd222 bf" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s">
+							<div class="face"><img src="img/avatar/锦华.jpg" /><span>锦华</span></div>
+
+							<div class="message">
+
+								目前我们已经吸引了一批喜欢在树本学习技能，提升自我和结交朋友的服务对象。
+							</div>
+						</div>
+
+						<div class="message_content ani gd23 bf" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="3s">
+							<div class="face"><img src="img/avatar/维斯.jpg" /><span>维斯</span></div>
+
+							<div class="message">
+
+								我们兴趣小组已经初步发展起来了，成立了自己管理的队伍，也有了树本社区议事厅的社区领袖和我们一起推动服务的发展。
+							</div>
+						</div>
+
+						<div class="message_content ani gd24 bf" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="4.5s">
+							<div class="face"><img src="img/avatar/楚侨.jpg" /><span>楚侨</span></div>
+							<div class="message">
+								我们有现在的成绩离不开社工局领导、服务对象、社区领袖和广大合作伙伴的支持和帮助。
+							</div>
+						</div>
+
+						<div class="message_content ani gd25 bf" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="6s">
+							<div class="face"><img src="img/avatar/庆杨.jpg" /><span>庆杨</span></div>
+							<div class="message">
+								我们把他们都拉进群来吧，群策群力，一起实践公益
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="swiper-slide">
+					<div class="wechattalk">
+						<img src="img/ipad.jpg" alt="" class="img-responsive" />
+						<div class="message_content ani gd26 bf" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s">
+							<div class="face"><img src="img/avatar/楚侨.jpg" /><span>楚侨</span></div>
+							<div class="message">
+								传播公益
+							</div>
+						</div>
+
+						<div class="message_content ani gd27 bf" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="3s">
+							<div class="face"><img src="img/avatar/众人.jpg" /><span>众人</span></div>
+							<div class="message">
+								我们在树本等你！
+							</div>
+						</div>
+
+						<div class="message_content ani gd28 bf" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="4.5s">
+							<!--<div class="face"><img src="img/avatar/xx.jpg" /><span>“遇见树本”群</span></div>-->
+							<div class="message2">
+								来吧各位充满爱心的亲们，树本需要你们，听说社工给我新开发了一个“发红包”的功能，还要在今晚进行测试哦，亲们快到碗里来，We’re 伐木累！
+							</div>
+						</div>
+					</div>
+
+					<a style="position: absolute; right: 2%; bottom: 2%; color: #000;" href="index4.html"> To Part4</a>
+				</div>
+
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+		</div>
+<audio id="myaudio" src="1.wav" hidden="true"  >
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+			        pagination: '.swiper-pagination',
+			        direction: 'vertical',
+			        slidesPerView: 1,
+			        paginationClickable: true,
+			        spaceBetween: 30,
+			        mousewheelControl: true,
+			        keyboardControl : true,
+			        onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+					    swiperAnimateCache(swiper); //隐藏动画元素 
+					    swiperAnimate(swiper); //初始化完成开始动画
+					  }, 
+					  onSlideChangeEnd: function(swiper){ 
+					    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+					  }
+			    });
+		</script>
+<script type="text/javascript"> 
+
+			var tt = $('.bf'); 
+			function autoPlay(){
+			var myAuto = $("#myaudio")[0];
+			myAuto.play();
+			}
+
+			tt.on('webkitAnimationStart mozAnimationStart MSAnimationStart oanimationstart animationstart', function(){
+			autoPlay();
+			});
+
+		</script>
+	</body>
+
+</html>
